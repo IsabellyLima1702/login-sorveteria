@@ -1,0 +1,232 @@
+:root {
+    --imagem-fundo: url("./imgCadastro/sorvete.png"); 
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ul, ol, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0D7C72;
+    background-image: var(--imagem-fundo);
+    background-size: cover;       
+    background-repeat: no-repeat;
+}
+
+
+.menu{
+    background-color: rgb(243, 169, 169);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* empurra itens para o final */
+    gap: 20px;
+    padding-right: 30px;
+    height: 10vh;
+    width: 100%;
+    position: relative;
+}
+
+.menu a{
+    padding: 3vh;
+    font-size: 3vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: .5s;
+}
+
+.menu img{
+    height: 55px;
+    width: 55px;
+    margin-right: auto; /* empurra o resto para a direita */
+    margin-left: 3vh;
+}
+
+
+.container{    
+    background-color: rgb(243, 169, 169);
+    height: 136vh;
+    width: 54vw;
+    margin: 20vh auto 0 auto; /* centraliza horizontalmente */
+    border-radius: 3vh;
+}
+
+.register{
+    margin-top: -8vw;
+    height: 12vh;
+    width: 18vw;
+    margin-left: 18vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+
+}
+section{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.register h2{
+    font-size: 3.5vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.texto{
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.texto h1{
+    font-size: 5.5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 2vh;
+    color: rgb(146, 2, 62);
+}
+
+.texto h3{
+    font-size: 2.5vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1vh;
+    color: rgb(146, 2, 62);
+}
+
+.passo img{
+    width: 30vh;
+    margin-left: 40vh;
+    margin-top: 5vh;
+    padding: 5px;
+}
+
+.passo1 h3{
+    font-size: 2vh;
+    color: rgb(146, 2, 62);
+    margin-left: 22vw;
+    margin-top: 1vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.passo1 h2{
+    font-size: 2vh;
+    color: rgb(172, 6, 75);
+    margin-left: 25.5vw;
+    margin-top: -2.3vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#nome{
+    height: 8vh;
+    width: 30vw;
+    margin-top: 6vh;
+    margin-left: 25vh;
+    font-size: 2.5vh;
+    border-radius: 2vh;
+    padding-left: 2vw;
+}
+
+#email{
+    height: 8vh;
+    width: 30vw;
+    margin-top: 8vh;
+    margin-left: 25vh;
+    font-size: 2.5vh;
+    border-radius: 2vh;
+    padding-left: 2vw;
+
+}
+
+#senha{
+    height: 8vh;
+    width: 30vw;
+    margin-top: 8vh;
+    margin-left: 25vh;
+    font-size: 2.5vh;
+    border-radius: 2vh;
+    padding-left: 2vw;
+
+}
+
+#premium{
+    height: 8vh;
+    width: 30vw;
+    margin-top: 8vh;
+    margin-left: 25vh;
+    font-size: 2.5vh;
+    border-radius: 2vh;
+    padding-left: 2vw;
+
+}
+
+#imagemPerfil{
+    height: 8vh;
+    width: 30vw;
+    margin-top: 3vh;
+    margin-left: 25vh;
+    font-size: 2.5vh;
+    border-radius: 2vh;
+    padding-left: 2vw;
+
+}
+
+.cont5 p{
+    font-size: 3vh;
+    color: black;
+    margin-left: 10vh;
+    margin-top: 5vh;
+}
+#senhaRecuperacao{
+    height: 8vh;
+    width: 30vw;
+    margin-top: 7vh;
+    margin-left: 25vh;
+    font-size: 2.5vh;
+    border-radius: 2vh;
+    padding-left: 2vw;
+
+}
+
+#botao{
+    height: 8vh;
+    width: 13vw;
+    background-color: #0D7C72;
+    color: #ffffff;
+    font-size: 2.3vh;
+    margin-left: 20.5vw;
+    margin-top: 6vh;
+    border-radius: 1vh;
+    cursor: pointer;
+}
+
+.login h3{
+    font-size: 3vh;
+    color: #535151;
+    margin-left: 19vw;
+    margin-top: 5vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+
+}
+
+.login h2{
+    font-size: 3vh;
+    color: rgb(146, 2, 62);
+    margin-left: 31vw;
+    margin-top: -3.6vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+
+}
